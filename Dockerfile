@@ -1,4 +1,4 @@
-FROM docker:20-git
+FROM docker:19.03.8-git
 
 RUN apk --no-cache add python2-dev py-pip
 
